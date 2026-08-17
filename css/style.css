@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 241, 242);
+}
+
+.topbanner {
+    height: 56px;
+    width: 100%;
+    background-color: rgb(255, 154, 1);
+    text-align: center;
+}
+
+.topbanner img {
+    height: inherit;
+    width: 88%;
+}
+
+.navbar-cont {
+    width: 100%;
+    height: 72px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    align-items: center;
+}
+
+.logo,
+.searchbar,
+.linkbox {
+    height: inherit;
+    background-color: orange;
+}
+
+.logo {
+    width: 13%;
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.searchbar {
+    width: 45%;
+    height: 70%;
+    border-radius: 100px;
+    margin-right: -30px;
+    background-color: rgb(241, 241, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7px;
+
+
+
+}
+
+.linkbox {
+    width: 19%;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.searchbar i {
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+
+.searchbar input {
+    border: none;
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    font-size: 1rem;
+}
+
+.searchbar button {
+    width: 13%;
+    height: inherit;
+    background-color: rgb(246, 139, 30);
+    color: white;
+    border: none;
+    border-radius: inherit;
+}
+
+.searchbar ::-webkit-input-placeholder {
+    font-size: small;
+}
+
+.linkbox {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.linkbox :hover {
+    color: orangered;
+}
+
+.herosect {
+    width: 80%;
+    height: 392px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px 80px 50px;
+    gap: 10px;
+    border-style: solid;
+}
+
+.box {
+    border: 3px solid white;
+    border-radius: 7px;
+}
+
+.left {
+    grid-column: 1/2;
+    grid-row: 1/5;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: small;
+    font-weight: 100;
+}
+
+.left :hover {
+    color: orangered;
+}
+
+.center {
+    grid-column: 2/5;
+    grid-row: 1/5;
+    background-image: url(../img/centerpiece.gif);
+}
+
+.topright {
+    grid-column: 5/6;
+    grid-row: 1/3;
+    background-color: white;
+    background-image: url(../img/call_files/Artboard-1.gif);
+}
+
+.bottomright {
+    grid-column: 5/6;
+    grid-row: 3/5;
+    background-image: url(../img/product2.gif);
+}
+
+.topright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: small;
+    font-weight: 100;
+}
+
+.topright :hover {
+    color: orangered;
+}
+
+.productboard1 {
+    height: 170px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 135px;
+    margin-top: 10px;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    border-style: solid;
+
+
+}
+
+.tinybox {
+    height: 100%;
+    width: 128px;
+    background-color: inherit;
+    text-align: center;
+    font-size: smaller;
+
+}
+
+.tiny img {
+    width: 100%;
+    height: 80%;
+}
+
+.productboard2 {
+    height: 200px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto 0;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    border-style: solid;
+}
+
+.dealbox {
+    height: 100%;
+    width: 170px;
+    background-color: white;
+    text-align: center;
+    font-size: smaller;
+}
+
+.dealbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.essentialsbox {
+    height: 350px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+    border-style: solid;
+}
+
+.essent {
+    height: 50%;
+    width: 16%;
+    background-color: red;
+}
+
+.essent img {
+    width: 100%;
+    height: 100%;
+}
+
+.productboard3 {
+    height: 261px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 135px;
+    margin-top: 10px;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    border-style: solid;
+}
+
+.topsellersbox {
+    height: 100%;
+    width: 170px;
+    background-color: peru;
+}
+
+.topsellersbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.productboard4 {
+    height: 350px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+    border-style: solid;
+}
+
+.limitedbox {
+    height: 50%;
+    width: 16%;
+    background-color: rgb(255, 255, 255);
+}
+.limitedbox img{
+    width: 100%;
+    height: 100%;
+}
