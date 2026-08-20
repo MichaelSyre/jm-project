@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(241, 241, 242);
+    background-color: rgb(178, 119, 219);
 }
 
 .topbanner {
@@ -107,13 +107,13 @@ body {
 }
 
 .linkbox :hover {
-    color: orangered;
+    color: rgb(247, 106, 54);
 }
 
 .herosect {
     width: 80%;
     height: 392px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(178, 119, 219);
     margin: 20px auto 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -293,11 +293,13 @@ body {
     height: 100%;
 }
 .about{
-    height: 400px;
+    height: 500px;
     width: 80%;
     background-color:rgb(255, 255, 255);
     margin:20px auto 0;
     border-radius: 10px; 
+    
+   
 }
 h5,h6{
     font-family: Arial, sans-serif;
@@ -305,10 +307,60 @@ h5,h6{
 }
 p{
     font-size: smaller;
+    margin-bottom: 7px;
 }
-.jumiabar{
-    width: 100%;
-    height: 224px;
-    background-color: rgb(49, 49, 51);
-    margin: 56px auto 0;
+footer {
+    background-color: #323232;
+
+    color: white;
+
+    margin-top: 50px;
+}
+
+
+.footer-container {
+    width: 88%;
+
+    margin: auto;
+
+    padding: 40px 0;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+}
+
+.footer-container h3 {
+    margin-bottom: 20px;
+
+    color: #f68b1e;
+}
+
+.footer-container p {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+
+    color: #ddd;
+}
+
+.footer-container p:hover {
+    color: white;
+
+    cursor: pointer;
+}
+
+
+.copyright {
+    text-align: center;
+
+    border-top: 1px solid #555;
+
+    padding: 20px;
+
+    font-size: 13px;
+
+    color: #aaa;
 }
